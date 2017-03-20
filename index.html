@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This must always come first-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Webfonts -->
+    <link href='https://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <!-- Custom Webfonts -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/fd69e0b4b2.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <div class="container-fluid landingPage">
+        <div class=" container-fluid">
+            <div class="top-nav">
+                <div class="navigation">
+                    <div class="logo">
+                        <h1><a href="index.html"><span>N</span>OMBUYISELO</a></h1>
+                    </div>
+                    <div class="navigation-right">
+                        <span class="menu"><img src="images/menu.png" alt=" " /></span>
+                        <nav class="link-effect-3" id="link-effect-3">
+                            <ul class="nav1 nav nav-wil">
+                                <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+                                <li><a class="scroll" data-hover="About" href="#about">About</a></li>
+                                <li><a class="scroll" data-hover="Qualifications" href="#map">Qualifications</a></li>
+                                <li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+                                <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <!-- script-for-menu -->
+                        <script>
+                            $("span.menu").click(function() {
+                                $("ul.nav1").slideToggle(300, function() {
+
+                                });
+                            });
+
+                        </script>
+                        <!-- /script-for-menu -->
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"> </div>
+
+    <!--    Section About Me Start-->
+    <div class="container-fluid aboutMe" id="about">
+        <div class="container intro_about">
+            <!-- About Intro Style-->
+            <div class="row about-head one text-center ">
+                <h4>ABOUT ME</h4>
+                <span class="border one"></span>
+            </div>
+            <!-- End of About Intro Style-->
+            <div class="container aboutBoth">
+                <div class="col-md-5 about-left">
+                    <img src="img/portrait/portrait1.jpg" class="img-responsive img-circle" alt="Portrait of Nombuyiselo">
+                </div>
+                <div class="col-md-7 about-right">
+                    <div id="owl-demo1" class="owl-carousel owl-carousel2">
+                        <div class="item">
+                            <div class="about-left-grid">
+                                <h2>Hi! I'm <span>Nombuyiselo Murage</span></h2>
+                                <p> I am a Geomatic Engineer by profession and a geo-geek at heart and most recently training to become a web developer. Besides my professional interests, I am an avid Debater and Public Speaker and an active member of The Kenya National Debate Council. In fact, I did win the Best Public Speaker award during the Annual Amnesty Inter-Varsity Human Rights Debate Championship, 2013). I am passionate about debate and also get a lot of satisfaction in helping others find their voice through debate and public speaking.I am also an outdoors person who is passionate about the environment which informs my participation in the Wildlife and Environment Clubs in High School. I have successfully climbed Mt. Longonot, Kilimambogo, Aberdare Ranges, Chyulu Hills and Ngong Hills (...and I am still counting).I love cooking, reading, travelling, meeting people and making new friends.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    Section About Me End-->
+    <!--  Section Showing Map-->
+    <div class="container-fluid mapPortfolio" id="map">
+        <div class="row about-head one text-center ">
+            <h4>MY QUALIFICATIONS </h4>
+            <span class="border two"></span>
+        </div>
+        <div class="container map">
+            <div class="col-md-2"></div>
+            <div id="col-md-8 map">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1B99ZVynPIMXCWV4JrO8lGi0UzY8" width="850" height="600"></iframe>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+    <!--    End of Map Section Showing Work-->
+    <!--    Start of My Experience Section-->
+    <div class="container-fluid work">
+        <div id="work" class="work">
+            <div class="container">
+                <div class="service-head text-center">
+                    <h4>WHAT I HAVE DONE</h4>
+                    <h3>MY <span>EXPERIENCE</span></h3>
+                    <span class="border three"></span>
+                </div>
+                <div class="time-main w3l-agile">
+                    <div class="col-md-6 year-info">
+                        <ul class="year">
+                            <li>2016</li>
+                            <li>2015</li>
+                            <li>2014</li>
+                            <div class="clearfix"></div>
+                        </ul>
+                    </div>
+                    <ul class="col-md-6 timeline">
+                        <li>
+                            <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">GEOMATIC CES LTD</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>I worked as a Geospatial Analyst / Assistant Geomatic Engineer on several projects including Engineering Survey work, research surveys and documentation and subdivision master plans. </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Directorate of Resource Survey and Remote Sensing under Ministry of Mining</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p> Specialized in the field of GIS & Remote Sensing, with particular application in Crop Forecasting and Food Security </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">GEOMAPS AFRICA LTD</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Specializing in the Field of GIS application and Remote Sensing.</p>
+                                </div>
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Ardhi Survey Consultants</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Specializing in the Field of Land Survey.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--    End of My Experience Section-->
+
+    <!--    Start of Contact Page-->
+    <div class="container-fluid contacts" id="contact">
+        <div class="container contactsPage">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="contactsHeading">Contact Me!!</h2>
+                    <br>
+                    <p>Are you looking for GIS analyst? Web Developer? EIA/EA Expert? Feel free to contact me through any one of the platforms below</p>
+                    <br>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="mailto:nombumurage@gmail.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/nombuyiselo-teresa-murage-7b77b671?trk=nav_responsive_tab_profile" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/nombumurage" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    End of Contacts Page-->
+
+
+
+</body>
+
+</html>
